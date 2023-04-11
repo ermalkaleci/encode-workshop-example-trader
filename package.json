@@ -1,0 +1,16 @@
+{
+  "name": "example-trader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "waffle",
+    "deploy": "ts-node --transpile-only scripts/deploy.ts"
+  },
+  "dependencies": {
+    "@acala-network/bodhi": "^2.6.5",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^6.2.3",
+    "ts-node": "^10.9.1"
+  }
+}
