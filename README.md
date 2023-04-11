@@ -1,6 +1,6 @@
-# Sample Price Reader
+# Encode Example Trader (DEMO)
 
-A basic Chopsticks and EVM+ use case. Just a simple contract that uses Oracle Gatway to read token prices and Chopsticks feature to mock storage.
+A basic Chopsticks and EVM+ use case. Just a simple contract that uses Oracle Gatway to read token prices and Acala DEX to swap. Chopsticks is used to start an Acala node and mock storage.
 
 ```shell
 yarn install
